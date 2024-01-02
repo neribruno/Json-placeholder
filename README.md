@@ -1,4 +1,6 @@
 # Projeto Blog JSON Placeholder.
+https://neribruno.github.io/Json-placeholder/
+
 ## Projeto do curso HTML E CSS3 B7WEB
 Nesse projeto utilizei async functions para pegar a api fake (https://jsonplaceholder.typicode.com/posts) e exibir os posts contidos nela.
 

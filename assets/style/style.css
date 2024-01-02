@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+header h1 {
+    color: black;
+    text-align: center;
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+    font-size: 3rem;
+}
+
+fieldset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: column;
+    background-color: #ccc;
+    padding-top: 20px;
+    border: none;
+
+}
+
+fieldset legend {
+    text-align: center; 
+    background-color: #ccc;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    border-bottom: 1px solid #000;
+}
+
+fieldset input {
+    width: 50rem;
+    height: 3rem;
+    text-align: center;
+    font-size: 1.4rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #eee;
+}
+
+fieldset textarea {
+    text-align: center;
+    width: 50rem;
+    height: 10rem;
+    font-size: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #eee;
+}
+
+#insert-button {
+    width: 7rem;
+    height: 3rem;
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+#insert-button:hover {
+    border: 1px solid #000;
+    background-color: #eee;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+
+.content {
+    width: 98vw;
+    margin: auto;
+    text-align: center;
+    border:none;
+    margin-top: 4rem;
+}
+
+.content h1 {
+    margin-bottom: 2rem;
+}
+
+.content p {
+    font-size: 1.1rem;
+    margin-bottom: 5rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    height: 30px;
+}
